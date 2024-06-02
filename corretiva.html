@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORRETIVA</title>
+</head>
+<body>
+    
+    <h1>corretiva</h1>
+    
+    <div class="os">
+
+        <h2>RELATORIO DE ATENDIMENTO TECNICO</h2>
+        <form action="post" method="post">
+            <div class="natureza-do-serviço">
+                <h3>NATUREZA DO SERVIÇO</h3>
+                <label for="garantia"> GARANTIA </label> <input type="radio" name="natureza-do-serviço" id="garantia">
+                <label for="particular"> PARTICULAR </label> <input type="radio" name="natureza-do-serviço" id="particular">
+                <label for="contrato"> CONTRATO </label> <input type="radio" name="natureza-do-serviço" id="contrato">
+                <label for="cortesia"> CORTESIA </label> <input type="radio" name="natureza-do-serviço" id="cortesia">
+            </div>
+
+            <div class="cabecalho">
+            <label for="cliente"> CLIENTE </label>
+            <input type="text" name="cliente" id="cliente"><br>
+            <label for="unidade"> UNIDADE</label>
+            <input type="text" name="unidade" id="unidade"><br>
+            <label for="cidade">CIDADE</label>
+            <input type="text" name="cidade" id="cidade"><br>
+            <label for="estado">ESTADO</label>
+            <input type="text" name="estado" id="estado"><br>
+            </div>
+
+            <div class="atendimento">
+                <h4>ATENDIMENTO</h4>
+            <label for="quant">QUANTIDADE</label>
+            <input type="number" name="quant" id="quant"><br>
+            <label for="equipamento">EQUIPAMENTO</label>
+            <input type="text" name="equipamento" id="equipamento"><br>
+            <label for="marca">MARCA</label>
+            <input type="text" name="marca" id="marca"><br>
+            <label for="modelo">MODELO</label>
+            <input type="text" name="modelo" id="modelo"><br>
+            <label for="numSerie">NUMERO DE SERIE</label>
+            <input type="text" name="numSerie" id="numSerie"><br>
+            <label for="patrimonio">PATRIMONIO</label>
+            <input type="text" name="patrimonio" id="patrimonio"><br>
+            </div>
+            <div class="diagnostico">
+                <h3>DEFEITO ALEGADO</h3>
+                <textarea name="defeito-alegado" id="defeito-alegado" rows="5" cols="35"></textarea>
+                <h3>DEFEITO CONSTATADO</h3>
+                <textarea name="defeito-constatado" id="defeito-constatado" rows="5" cols="35"></textarea>
+                <h3> serviço executado </h3>
+                <textarea name="" id=""rows="5" cols="35"></textarea>
+            </div>
+            <h3>STATUS</h3>
+            <label for="status"> CONCLUIDO </label>
+            <input type="radio" name="status" id="CONCLUIDO">
+            <label for="status"> PENDENTE </label>
+            <input type="radio" name="status" id="PENDENTE">
+
+        </form> 
+        
+
+    </div>
+
+
+    
+    
+</body>
+</html>
